@@ -1,0 +1,26 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
+title: E73 Team # the name of your site, e.g. ACME Corp.
+author:
+  name: Rajib Ahmed
+  email: rajibdpi@gmail.com
+  phone: +8801924121274
+  facebook: facebook
+  twitter: twitter
+  web: https://rajibdpi.github.io
+# Basic Colors Control
+colors:
+  primaryTextColor: green
+  primaryTitleColor: purple
+# Compress sass
+sass:
+  sass_dir: assets/css
+  style: compressed
+# Permalink
+permalink: /:title
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-get-json

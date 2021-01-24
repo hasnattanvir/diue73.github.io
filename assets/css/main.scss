@@ -1,0 +1,38 @@
+---
+---
+
+/* modify Bootstrap variables here */
+
+@import "bootstrap/bootstrap";
+
+/* add additional CSS rules below */
+.linkColor{
+  color: #fff !important;
+}
+.primaryColor{
+  background-color: $primaryColor !important;
+}
+.pink {
+  color: $pink !important;
+}
+.red {
+  color: $red !important;
+}
+.green {
+  color: $green !important;
+}
+// Contact form css
+.contact-form {
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+// Footer
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color:#111;
+}
