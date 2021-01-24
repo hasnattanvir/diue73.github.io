@@ -4,14 +4,13 @@
 
 <body>
   {% include navbar.html %}
-  <div class="container mt-4">
+  <div class="container">
   {{ content }}
-
+  </div>
+  {% include footer.html %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="{{ "/assets/js/popper.min.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
-  {% include footer.html %}
-  </div>
 </body>
 
 </html>
